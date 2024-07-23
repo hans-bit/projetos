@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formulario de satisfação</title>
+    </head>
+    <body>
+        <form method="post" action="processar-pesquisa.html">
+            <section>
+                <h2>dados pessoais</h2>
+                <p>
+
+                    <label for="nome"> nome:</label>
+                    <input type="text" id="nome">
+                </p>
+                <p>
+                    <label for="email">email:</label>
+                    <input type="text" id="email">
+                </p>
+                <p>
+                    <label for="telefone">telefone:</label>
+                    <input type="tel" id="telefone">
+                </p>
+
+                
+
+            </section>
+            <section>
+                <h2>dados de pesquisa</h2>
+                <p>numa escala de 1 a 5, qual o nivel de satisfação com o produto:</p>
+
+                   <p>
+                    <input type="radio" id="1" name="nivel de satisfação">
+                    <label for="1">1</label>
+                </p>
+                <p>
+                    <input type="radio" id="2" name="nivel de satisfação">
+                    <label for="2">2</label>
+
+                </p>
+                <p>
+                    <input type="radio" id="3" name="nivel de satisfação">
+                    <label for="3">3</label>
+
+                </p>
+                <p>
+                    <input type="radio" id="4" name="nivel de satisfação">
+                    <label for="4">4</label>
+
+                </p>
+                <p>
+                    <input type="radio" id="5" name="nivel de satisfação">
+                    <label for="5">5</label>
+
+                </p>
+
+                <p>
+                    numa escala de 1 a 5 qual é sua nota para a rapidez na entrega:
+                </p>
+                <p>
+                    <input type="radio" id="1" name="nivel de entrega">
+                    <label for="1">1</label>
+                </p>
+                <p>
+                    <input type="radio" id="2" name="nivel de entrega">
+                    <label for="2">2</label>
+
+                </p>
+                <p>
+                    <input type="radio" id="3" name="nivel de entrega">
+                    <label for="3">3</label>
+
+                </p>
+                <p>
+                    <input type="radio" id="4" name="nivel de entrega">
+                    <label for="4">4</label>
+
+                </p>
+                <p>
+                    <input type="radio" id="5" name="nivel de entrega">
+                    <label for="5">5</label>
+
+                </p>
+                <label for="vendas">site onde a compra foi feita</label>
+                <select>
+                    <option>amazon</option>
+                    <option>kabum</option>
+                    <option>mercado livre</option>
+                    <option>shopee</option>
+                    <option>
+                        olx
+                    </option>
+                    
+
+                    
+                </select>
+                
+                
+            
+               
+
+                </p>
+                <input type="checkbox" id="compartilhar">
+                <label for="compartilhar">autorizo o compartilhamento desses dados</label>
+
+                
+
+            </section>
+            <input type="submit" value="enviar">
+        </form>
+    </body>
+</html>
